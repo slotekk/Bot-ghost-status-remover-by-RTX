@@ -36,9 +36,6 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = [];
-
-
 let currentIndex = 0;
 const channelId = '';
 
