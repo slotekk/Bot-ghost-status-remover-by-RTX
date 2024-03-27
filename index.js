@@ -36,6 +36,9 @@ app.listen(port, () => {
 });
 
 
+const statusMessages = ["created by slotek"];
+
+
 let currentIndex = 0;
 const channelId = '';
 
