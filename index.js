@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["‎ "];
+const statusMessages = ["‎created by slotek"];
 
 
 let currentIndex = 0;
