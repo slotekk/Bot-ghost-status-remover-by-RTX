@@ -35,8 +35,14 @@ app.listen(port, () => {
   console.log(`🔗 Powered By RTX`);
 });
 
+client.on( 'ready' , ()  => {
+ client.user.setstatus( 'available' )
+ client.user.setPresence({
+  game: {
+   name: 'created by slotek ',
+   type: "PLAYING" ,
 
-const statusMessages = ["‎created by slotek"];
+  }
 
 
 let currentIndex = 0;
