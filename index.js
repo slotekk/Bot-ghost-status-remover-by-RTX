@@ -1,4 +1,5 @@
 /**
+/**
  ██████╗░████████╗██╗░░██╗           
  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
  ██████╔╝░░░██║░░░░╚███╔╝░          
@@ -35,7 +36,9 @@ app.listen(port, () => {
   console.log(`🔗 Powered By RTX`);
 });
 
-const statusMessages = ["created by slotekk"];
+
+const statusMessages = ["PLAYING","MUSIC"];
+
 
 let currentIndex = 0;
 const channelId = '';
