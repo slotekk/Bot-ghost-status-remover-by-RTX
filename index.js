@@ -35,7 +35,7 @@ app.listen(port, () => {
   console.log(`🔗 Powered By RTX`);
 });
 
-const statusMessages = ["created by slotek"];
+await bot.change_presence(activity=discord.Streaming(name='streaming-name', url='https://www.twitch.tv/urtwitchusername'))
 
 let currentIndex = 0;
 const channelId = '';
